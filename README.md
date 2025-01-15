@@ -26,3 +26,23 @@ Assumptions made:
     ```
 
 ![diagram](schematic.drawio.svg)
+
+## Battery Selection
+
+- I chose a 3 cell (3S) LiPo battery because it provides a voltage of 11.1V which is close to the 12V required by the DC motors.
+- The step-down converter can step down the voltage to 5V for the rest of the circuit.
+- Assuming we want the robot to run for 30 mins:
+    ```
+    Battery capacity = 3.8A*1000*30/60 = 1900mAh
+    ```
+- This [2200mAh battery](https://www.overlander.co.uk/catalog/product/view/id/1771/s/2200mah-3s-11-1v-25c-lipo-battery-xt60-overlander-sport/category/442/) has a constant discharge of 25C:
+    ```
+    Constant drawable current = 25C*2200mAh = 55A > 3.8A
+    ```
+
+## TO-DO
+
+- Choose a fuse
+- Choose connector type for the battery
+- Look into wiring
+
