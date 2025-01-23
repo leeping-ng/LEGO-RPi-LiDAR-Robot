@@ -42,7 +42,4 @@ Assumptions made:
 
 ## TO-DO
 
-- Choose a fuse
-- Choose connector type for the battery
-- Look into wiring
 
