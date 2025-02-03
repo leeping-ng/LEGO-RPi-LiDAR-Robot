@@ -40,6 +40,17 @@ Assumptions made:
     Constant drawable current = 25C*2200mAh = 55A > 3.8A
     ```
 
+## Motor Controller Pinout
+
+- The [DC motor](https://wiki.dfrobot.com/FIT0441_Brushless_DC_Motor_with_Encoder_12V_159RPM) I have chosen has a built-in motor driver, which means I can connect it directly to the [Arduino Nano Every](https://store.arduino.cc/products/arduino-nano-every?srsltid=AfmBOor6d81EQKxD28ozaUNNCgAMu892tToQ9exD76huXJCx3Uv8hGlc) motor controller.
+- These are the pins I am using on the Arduino.
+
+| Function             | Left Motor | Right Motor |
+|----------------------|------------|-------------|
+| PWM (speed control)  | D5         | D6          |
+| Direction            | D4         | D7          |
+| FG (Feedback signal) | D2         | D3          |
+
 ## TO-DO
 
 
