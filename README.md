@@ -6,7 +6,7 @@
 
 This video shows all the electronics wired up and laid out before I packed them into the robot body. The rest of this section covers the design considerations for electronics and wiring.
 
-<video src="media/electrical_circuit.mp4" autoplay loop muted playsinline controls></video>
+<video src="https://github.com/user-attachments/assets/14b72ad6-245e-4bf9-bed6-f9f676e11a64" autoplay loop muted playsinline controls></video>
 
 ### 2.1 Electrical Schematic
 
