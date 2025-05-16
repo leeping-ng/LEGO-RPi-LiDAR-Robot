@@ -94,11 +94,11 @@ def generate_launch_description():
         ]
     )
 
-    ros_gz_image_bridge = Node(
-        package="ros_gz_image",
-        executable="image_bridge",
-        arguments=["/camera/image_raw"]
-    )
+    # ros_gz_image_bridge = Node(
+    #     package="ros_gz_image",
+    #     executable="image_bridge",
+    #     arguments=["/camera/image_raw"]
+    # )
 
     # Code for delaying a node (I haven't tested how effective it is)
     #
@@ -127,5 +127,5 @@ def generate_launch_description():
         diff_drive_spawner,
         joint_broad_spawner,
         ros_gz_bridge,
-        ros_gz_image_bridge
+        # ros_gz_image_bridge
     ])
